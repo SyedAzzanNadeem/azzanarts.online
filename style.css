@@ -1,0 +1,108 @@
+.fixedbar{
+    width:25px;
+    border-radius: 100%; 
+}
+.eye{
+    border-radius: 100%;
+}
+.search-box{
+    border-radius: 60px;
+    border-color: black;
+}
+.btn{
+    border:transparent;
+    border-color: transparent ;
+}
+.btn:hover{
+    background-color:transparent;
+    border-color: transparent ;
+    color:rgba(145, 143, 143, 0.9);
+    border-radius: 50px;
+}
+.btn:focus{
+    border:none;
+    border-radius: 50px; 
+}
+.active:focus{
+    background-color:rgb(62, 62, 62);
+}
+.bgcolor{
+    background-color:rgb(85, 84, 84);
+}
+.form-control{
+    width:80%;
+}
+.boxes{
+    box-shadow: 5px 5px 10px 3px rgb(93, 92, 92);
+    border-radius: 10px;
+}
+#boxes{
+    box-shadow: 5px 5px 10px 3px rgb(93, 92, 92);
+    border-radius: 10px;
+}
+a{
+    color: black
+}
+.nav-link:hover{
+    font-weight: bold;
+}
+#main-header {
+    box-shadow: 3px 3px 8px rgb(155, 155, 155);
+}
+.top{
+    position: fixed;
+    bottom: 3%;
+   right: 1%;
+}
+
+#topbtn{
+    border:transparent;
+    outline:none;
+    background-color: rgb(0, 0, 0,0.5) ;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.topicon{
+    font-size: 20px;
+}
+.boxes:hover{
+    transform: scale(1.08);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #topbtn{
+        border:transparent;
+        outline:none;
+        background-color: rgb(0, 0, 0,0.5) ;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .topicon{
+        font-size: 20px;
+    }
+  }
+
+  .celeb{
+    font-size:30px;
+    text-shadow:2px 2px 5px rgb(79, 79, 79);
+  }
+  .celebr{
+    font-size:30px;
+    text-shadow:2px 4px 5px rgb(191, 190, 190);
+  }
+
+.fa-brands.fa-instagram {
+        color: transparent;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+#footer-links:hover{
+font-weight: bold;
+}
